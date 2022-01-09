@@ -1,0 +1,22 @@
+{
+  "name": "9readmegen",
+  "version": "1.0.0",
+  "description": "README Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chelseao86/9READMEgen.git"
+  },
+  "author": "Chelseao86",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chelseao86/9READMEgen/issues"
+  },
+  "homepage": "https://github.com/Chelseao86/9READMEgen#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
