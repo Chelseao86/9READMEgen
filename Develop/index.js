@@ -87,10 +87,11 @@ function writeToFile(fileName, data) {
  function init() {
      inquirer.prompt(questions)
         .then(function (answers) {
-          console.log(answers)
-          writeFileSync("README.md", generateMarkdown(answers));
+          console.log(generateMarkdown(answers))
+         fs.writeFileSync("./README.md", generateMarkdown(answers));
         })
         .catch((error) => {
+          console.log(error)
           if (error.isTtyError) {
             // Prompt couldn't be rendered in the current environment
           } else {

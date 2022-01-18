@@ -9,12 +9,13 @@ function generateMarkdown(answers) {
    + [License](#license)
    + [Description](#description)
    + [Installation](#installation)
-   + [Usage] (#usage)
-   + [Contribution] (#contribution)
-   + [Testing] (#testing)  
+   + [Usage](#usage)
+   + [Contribution](#contribution)
+   + [Testing](#testing)  
   
   
    ## Questions: If you have any questions, feel free to contact ${answers.firstName} at ${answers.email}.
 
    `
 }
+module.exports=generateMarkdown
