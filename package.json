@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Chelseao86/9READMEgen/issues"
   },
-  "homepage": "https://github.com/Chelseao86/9READMEgen#readme"
+  "homepage": "https://github.com/Chelseao86/9READMEgen#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
 }
